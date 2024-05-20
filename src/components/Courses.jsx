@@ -13,6 +13,7 @@ import datavisualization from "../img/courses/Data Visualization.png";
 import introml from "../img/courses/Intro to Machine Learning.png";
 import interml from "../img/courses/Intermediate Machine Learning.png";
 import machinelearning from "../img/courses/MachineLearning.png";
+import Container from "./Container";
 
 const Courses = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -65,7 +66,8 @@ const Courses = () => {
   const totalImages = images.length;
 
   return (
-    <div className="mainContainer" id="courses">
+    <Container index={1}>
+    <div id="courses">
       <h1>Tanfolyamok</h1>
       <div className="certContainer">
         <div className="freecode">
@@ -103,6 +105,7 @@ const Courses = () => {
         nextImage={handleNextImage}
       />
     </div>
+    </Container>
   );
 };
 

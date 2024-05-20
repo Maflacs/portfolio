@@ -12,14 +12,12 @@ html {
 }
 
 :root {
+  --navBg: orange;
   --bgDark: #343a40;
-  --bgBright: #faf6f0;
-  --containerBg: #f4dfc8;
-  --cartBg: #d9dadc;
-  --fontDark: black;
-  --fontBright: white;
-  --progress: #023047;
-  --border: #023047;
+  --lightBg: #f8f398;
+  --darkBg: black;
+  --lightBgb: #D7D8DA;
+  --fontDark: orange;
 }
 
 .logo {
@@ -38,12 +36,40 @@ nav a {
 
 nav a:hover,
 nav a.active {
-  background: var(--cartBg);
+  background: var(--navBg);
   transition: 0.5s ease-out;
 }
 
 .collapse {
   margin-right: 3rem;
+}
+
+.toggle {
+  width: 50px;
+  height: 25px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  background-color: white;
+  position: fixed;
+  right: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #999;
+  position: absolute;
+  cursor: pointer;
 }
 
 #about {
@@ -70,10 +96,18 @@ nav a.active {
 
 #skills {
   padding: 2rem;
-  background-color: var(--containerBg);
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.bglight {
+  background-color: var(--lightBg);
+}
+
+.bgdark {
+  background-color: var(--darkBg);
+  color: var(--fontDark);
 }
 
 .icons .other {
@@ -101,12 +135,20 @@ h2 {
 
 
 #courses {
-  background-color: var(--cartBg);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2rem;
+}
+
+.bgblue {
+  background-color: var(--lightBgb);
+}
+
+.bggray {
+  background-color: var(--bgDark);
+  color: var(--fontDark);
 }
 
 .certContainer {
@@ -156,16 +198,34 @@ h2 {
   margin: 0 1rem;
 }
 
-.footer {
-  background-color: var(--bgDark);
-  color: var(--bgBright);
-  padding: 0.3em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
+#projects {
+  padding: 3rem 0;
 }
 
+.footer {
+  background-color: #212529;
+  color: #838688;
+  padding: 0.3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footericons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.footer a {
+  color: var(--fontDark);
+  text-decoration: none;
+}
+
+.mail a {
+margin: 0 1rem;
+}
 @media (max-width: 1400px) {
   .cart {
     width: 70%;

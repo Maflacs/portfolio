@@ -1,25 +1,32 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import logo from "../img/Ecu.png";
 import cv from "../cv/cv.pdf";
 import { Collapse } from "react-bootstrap";
+import ChangeTheme from "./ChangeTheme";
+import { ThemeContext } from "../context/ThemeContext";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const {
+    state: { darkMode },
+  } = useContext(ThemeContext);
 
   const toggleNavbar = () => {
     setNavbarOpen(!navbarOpen);
   };
 
+  useEffect(() => {}, [darkMode]);
+
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-      <a className="cv" href={cv} download="https://drive.google.com/file/d/1O81NrnHCL2u0LZXSOx_2VZEJL5LbtY_H/view?usp=sharing">
+      <a
+        className="cv"
+        href={cv}
+        download="https://drive.google.com/file/d/1O81NrnHCL2u0LZXSOx_2VZEJL5LbtY_H/view?usp=sharing"
+      >
         <img className="logo" src={logo} alt="logo" />
       </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        onClick={toggleNavbar}
-      >
+      <button className="navbar-toggler" type="button" onClick={toggleNavbar}>
         <span className="navbar-toggler-icon"></span>
       </button>
       <Collapse className="collapse navbar-collapse" in={navbarOpen}>
@@ -46,6 +53,7 @@ const Navbar = () => {
           </li>
         </ul>
       </Collapse>
+      <ChangeTheme/>
     </nav>
   );
 };

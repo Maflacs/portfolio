@@ -1,10 +1,13 @@
 import React from "react";
+import Container from "./Container";
 
 const Projects = () => {
   return (
-    <div className="mainContainer" id="projects">
-      <h2>Munkáim</h2>
-    </div>
+    <Container index={2}>
+      <div id="projects">
+        <h2>Munkáim</h2>
+      </div>
+    </Container>
   );
 };
 
