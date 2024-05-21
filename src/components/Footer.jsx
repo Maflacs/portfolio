@@ -44,7 +44,7 @@ const Footer = () => {
         </a>
         <a
           className="cv"
-          href="https://drive.google.com/file/d/1oKrq43qc4Xo5pOjoCbgMP1_LxbVWhWit/view?usp=sharing"
+          href="https://drive.google.com/file/d/1--o3sBoAGGKyhujjOQB4LN2ciAs9kF77/view?usp=sharing"
           download="cven.pdf"
         >
           <img className="flag" src={en} alt="magyar" />

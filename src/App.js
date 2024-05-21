@@ -8,14 +8,14 @@ import Courses from "./components/Courses";
 
 function App() {
   return (
-      <div className="App">
-        <Navbar />
-        <About />
-        <Skills />
-        <Courses />
-        <Projects />
-        <Footer />
-      </div>
+    <div className="App">
+      <Navbar />
+      <About />
+      <Skills />
+      <Courses />
+      <Projects />
+      <Footer />
+    </div>
   );
 }
 

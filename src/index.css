@@ -16,7 +16,7 @@ html {
   --bgDark: #343a40;
   --lightBg: #f8f398;
   --darkBg: black;
-  --lightBgb: #D7D8DA;
+  --lightBgb: #d7d8da;
   --fontDark: orange;
 }
 
@@ -44,6 +44,11 @@ nav a.active {
   margin-right: 3rem;
 }
 
+.switch {
+  position: fixed;
+  top: 10rem;
+}
+
 .toggle {
   width: 50px;
   height: 25px;
@@ -53,17 +58,12 @@ nav a.active {
   position: fixed;
   right: 5rem;
   display: flex;
-  align-items: center;
   justify-content: space-around;
 }
 
 .lang {
   right: 8rem;
   font-size: 16px;
-}
-
-.lang p{
-  margin-top: 20px;
 }
 
 .icon {
@@ -141,7 +141,6 @@ h2 {
 .list h3 {
   margin-bottom: 2rem;
 }
-
 
 #courses {
   display: flex;
@@ -243,7 +242,6 @@ h2 {
   height: 1.5rem;
 }
 
-
 @media (max-width: 1400px) {
   .cart {
     width: 70%;
@@ -284,6 +282,12 @@ h2 {
   .modal img {
     width: 90%;
   }
+
+  .toggle {
+    top: 1rem;
+  }
+
+ 
 }
 
 @media (max-width: 500px) {
