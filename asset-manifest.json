@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.eee43144.css",
+    "main.js": "/portfolio/static/js/main.1642c7b0.js",
+    "static/media/header_bg.png": "/portfolio/static/media/header_bg.abdb40414757f7ca827a.png",
+    "static/media/Javascript.png": "/portfolio/static/media/Javascript.de26a14be0c052ba5fb7.png",
+    "static/media/Pythonfree.png": "/portfolio/static/media/Pythonfree.5e23eb0c1a9a4f3be750.png",
+    "static/media/profilpic.jpeg": "/portfolio/static/media/profilpic.6987c0d75405ecbd0be5.jpeg",
+    "static/media/DataAnalysis.png": "/portfolio/static/media/DataAnalysis.fbc412a3f9742b875336.png",
+    "static/media/MachineLearning.png": "/portfolio/static/media/MachineLearning.60ab6bb8d40601b077f7.png",
+    "static/media/React.png": "/portfolio/static/media/React.db8340d7046f2b3839cd.png",
+    "static/media/ResponsiveWebDesigne.png": "/portfolio/static/media/ResponsiveWebDesigne.e98fc7af4caa656bb826.png",
+    "static/media/Ecu.png": "/portfolio/static/media/Ecu.d4c554ea1bc09774a68a.png",
+    "static/media/Intro to Machine Learning.png": "/portfolio/static/media/Intro to Machine Learning.98faa7117023e0a106a4.png",
+    "static/media/Pandas.png": "/portfolio/static/media/Pandas.1deee85e39a6d93ab77b.png",
+    "static/media/Python.png": "/portfolio/static/media/Python.81b38d0b9e741bd17d5a.png",
+    "static/media/Intermediate Machine Learning.png": "/portfolio/static/media/Intermediate Machine Learning.910aa05a0efe8b81d448.png",
+    "static/media/Intro to Programming.png": "/portfolio/static/media/Intro to Programming.915d9125e7ec75558438.png",
+    "static/media/Data Visualization.png": "/portfolio/static/media/Data Visualization.53b40ddadf99ca16baab.png",
+    "static/media/moon.png": "/portfolio/static/media/moon.58d6ddbff1c2032d0e0e.png",
+    "index.html": "/portfolio/index.html",
+    "static/media/flagen.svg": "/portfolio/static/media/flagen.6cf90268d11449c43485e377d66bc8b0.svg",
+    "static/media/flaghu.svg": "/portfolio/static/media/flaghu.cb329e885950a7c054075d78aa6f1364.svg",
+    "main.eee43144.css.map": "/portfolio/static/css/main.eee43144.css.map",
+    "main.1642c7b0.js.map": "/portfolio/static/js/main.1642c7b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eee43144.css",
+    "static/js/main.1642c7b0.js"
+  ]
+}
