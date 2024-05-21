@@ -1,59 +1,64 @@
 import React, { useContext, useEffect, useState } from "react";
 import logo from "../img/Ecu.png";
-import cv from "../cv/cv.pdf";
 import { Collapse } from "react-bootstrap";
 import ChangeTheme from "./ChangeTheme";
 import { ThemeContext } from "../context/ThemeContext";
+import { LangContext } from "../context/LangContext";
+import ChangeLanguage from "./ChangeLanguage";
+import translations from "../translations";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
+
+  const { state } = useContext(LangContext);
+  const navItems = translations[state.lang].nav;
+
   const {
     state: { darkMode },
   } = useContext(ThemeContext);
+
+  const {
+    state: { lang },
+  } = useContext(LangContext);
 
   const toggleNavbar = () => {
     setNavbarOpen(!navbarOpen);
   };
 
-  useEffect(() => {}, [darkMode]);
+  useEffect(() => {}, [darkMode, lang]);
 
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-      <a
-        className="cv"
-        href={cv}
-        download="https://drive.google.com/file/d/1O81NrnHCL2u0LZXSOx_2VZEJL5LbtY_H/view?usp=sharing"
-      >
         <img className="logo" src={logo} alt="logo" />
-      </a>
       <button className="navbar-toggler" type="button" onClick={toggleNavbar}>
         <span className="navbar-toggler-icon"></span>
       </button>
       <Collapse className="collapse navbar-collapse" in={navbarOpen}>
         <ul className="navbar-nav">
-          <li className="nav-item">
+        <li className="nav-item">
             <a className="nav-link" href="#about">
-              Rólam
+              {navItems[0]}
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#skills">
-              Jártasságaim
+            {navItems[1]}
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#courses">
-              Tanfolyamok
+            {navItems[2]}
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#projects">
-              Munkáim
+            {navItems[3]}
             </a>
           </li>
         </ul>
       </Collapse>
-      <ChangeTheme/>
+      <ChangeLanguage />
+      <ChangeTheme />
     </nav>
   );
 };

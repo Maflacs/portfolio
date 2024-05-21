@@ -1,20 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import profil from "../img/profilpic.jpeg";
+import LangContext from "../context/LangContext";
+import translations from "../translations";
 
 const About = () => {
+  const { state } = useContext(LangContext);
+  const currentLang = translations[state.lang].about;
   return (
     <div className="mainContainer" id="about">
       <div className="cart">
         <img className="profpic" src={profil} alt="profil kép" />
-        <p>
-          Egy nagyon lelkes kezdő fejlesztő vagyok, akit elsősorban a frontend
-          és az adatelemzés érdekel.
-        </p>
-        <p>
-          Közel 5 éve foglalkozom már ezekkel a területekkel, folyamatosan
-          fejlesztem magam, de céges tapasztalattal még nem rendelkezem.
-        </p>
-        <p>Éppen ezért most állást keresek, hogy még többet tanulhassak.</p>
+        {currentLang.map((text, index) => (
+        <p key={index}>{text}</p>
+      ))}
       </div>
     </div>
   );

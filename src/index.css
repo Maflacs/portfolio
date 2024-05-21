@@ -21,7 +21,7 @@ html {
 }
 
 .logo {
-  margin-left: 0 1rem;
+  margin: 0 1rem;
   width: 2.5em;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -55,6 +55,15 @@ nav a.active {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.lang {
+  right: 8rem;
+  font-size: 16px;
+}
+
+.lang p{
+  margin-top: 20px;
 }
 
 .icon {
@@ -172,7 +181,7 @@ h2 {
 }
 
 .modal {
-  background-color: var(--cartBg);
+  background-color: var(--bgDark);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -191,6 +200,7 @@ h2 {
 
 .arrow {
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .closebtn {
@@ -214,7 +224,6 @@ h2 {
 
 .footericons {
   display: flex;
-  flex-direction: row;
   gap: 1rem;
 }
 
@@ -223,9 +232,18 @@ h2 {
   text-decoration: none;
 }
 
-.mail a {
-margin: 0 1rem;
+.cv {
+  display: flex;
+  color: #838688;
+  gap: 1rem;
 }
+
+.flag {
+  width: 1rem;
+  height: 1.5rem;
+}
+
+
 @media (max-width: 1400px) {
   .cart {
     width: 70%;

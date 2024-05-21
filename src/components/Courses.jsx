@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import ImageModal from "./Modal";
 
 import responsivewebdev from "../img/courses/ResponsiveWebDesigne.png";
@@ -14,11 +14,16 @@ import introml from "../img/courses/Intro to Machine Learning.png";
 import interml from "../img/courses/Intermediate Machine Learning.png";
 import machinelearning from "../img/courses/MachineLearning.png";
 import Container from "./Container";
+import LangContext from "../context/LangContext";
+import translations from "../translations";
 
 const Courses = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const [imageIndex, setImageIndex] = useState(0);
+
+  const { state } = useContext(LangContext);
+  const currentLang = translations[state.lang].titles;
 
   const openModal = (imageUrl, index) => {
     setSelectedImage(imageUrl);
@@ -68,7 +73,7 @@ const Courses = () => {
   return (
     <Container index={1}>
     <div id="courses">
-      <h1>Tanfolyamok</h1>
+      <h1>{currentLang[2]}</h1>
       <div className="certContainer">
         <div className="freecode">
           {freecodeImages.map((imageUrl, index) => (

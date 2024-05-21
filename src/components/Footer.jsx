@@ -1,6 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Icon from "../functions/Icon.js";
+import hu from "../img/flaghu.svg";
+import en from "../img/flagen.svg";
+
 import {
   faFacebook,
   faGithub,
@@ -23,11 +26,29 @@ const Footer = () => {
         </a>
       </div>
       <div className="mail">
-        <p>kossa.eva@gmail.com
+        <p>
           <a href="mailto:kossa.eva@gmail.com">
             <FontAwesomeIcon icon={faEnvelopeSolid} name={"Mail"} />
           </a>
+          kossa.eva@gmail.com
         </p>
+      </div>
+      <div className="cv">
+        <p>CV:</p>
+        <a
+          className="cv"
+          href="https://drive.google.com/file/d/1JEKt5he0rPutdQD1V93BaTVActgoHFu0/view?usp=sharing"
+          download="cvhu.pdf"
+        >
+          <img className="flag" src={hu} alt="magyar" />
+        </a>
+        <a
+          className="cv"
+          href="https://drive.google.com/file/d/1oKrq43qc4Xo5pOjoCbgMP1_LxbVWhWit/view?usp=sharing"
+          download="cven.pdf"
+        >
+          <img className="flag" src={en} alt="magyar" />
+        </a>
       </div>
     </div>
   );

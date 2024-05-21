@@ -4,10 +4,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import App from "./App";
 import { ThemeProvider } from "./context/ThemeContext";
+import { LangProvider } from "./context/LangContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <ThemeProvider>
-    <App />
-  </ThemeProvider>
+  <LangProvider>
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+  </LangProvider>
 );

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
   faHtml5,
   faCss3Alt,
@@ -11,13 +11,19 @@ import {
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import Icon from "../functions/Icon.js";
 import Container from "./Container.jsx";
+import LangContext from "../context/LangContext.js";
+import translations from "../translations.js";
 
 const Skills = () => {
+
+  const { state } = useContext(LangContext);
+  const currentLang = translations[state.lang];
+
   return (
     <Container index={0}>
       <div id="skills">
         <div>
-          <h2>Tanult skillek</h2>
+          <h2>{currentLang.titles[0]}</h2>
           <div className="icons">
             <div>
               <Icon name="HTML" icon={faHtml5} />
@@ -38,13 +44,10 @@ const Skills = () => {
         <div>
           <div className="other">
             <div className="list">
-              <h3>Egyéb jártasságaim</h3>
-              <p>Microsoft Power BI</p>
-              <p>Adatelemzés</p>
-              <p>Adatvizualizáció</p>
-              <p>Gépi tanulás</p>
-              <p>Statisztika</p>
-              <p>Manuális tesztelés</p>
+              <h3>{currentLang.titles[1]}</h3>
+              {currentLang.skills.map((text, index) => (
+        <p key={index}>{text}</p>
+      ))}
             </div>
           </div>
         </div>
