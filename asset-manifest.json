@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.90293b32.css",
-    "main.js": "/portfolio/static/js/main.04f656f3.js",
-    "static/media/header_bg.png": "/portfolio/static/media/header_bg.abdb40414757f7ca827a.png",
+    "main.css": "/portfolio/static/css/main.2d2b6ca7.css",
+    "main.js": "/portfolio/static/js/main.077930d0.js",
+    "static/media/magic-school.png": "/portfolio/static/media/magic-school.dcba7d518ebf0838d77d.png",
     "static/media/Javascript.png": "/portfolio/static/media/Javascript.de26a14be0c052ba5fb7.png",
     "static/media/Pythonfree.png": "/portfolio/static/media/Pythonfree.5e23eb0c1a9a4f3be750.png",
     "static/media/profilpic.jpeg": "/portfolio/static/media/profilpic.6987c0d75405ecbd0be5.jpeg",
@@ -21,11 +21,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/flagen.svg": "/portfolio/static/media/flagen.6cf90268d11449c43485e377d66bc8b0.svg",
     "static/media/flaghu.svg": "/portfolio/static/media/flaghu.cb329e885950a7c054075d78aa6f1364.svg",
-    "main.90293b32.css.map": "/portfolio/static/css/main.90293b32.css.map",
-    "main.04f656f3.js.map": "/portfolio/static/js/main.04f656f3.js.map"
+    "main.2d2b6ca7.css.map": "/portfolio/static/css/main.2d2b6ca7.css.map",
+    "main.077930d0.js.map": "/portfolio/static/js/main.077930d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.90293b32.css",
-    "static/js/main.04f656f3.js"
+    "static/css/main.2d2b6ca7.css",
+    "static/js/main.077930d0.js"
   ]
 }
