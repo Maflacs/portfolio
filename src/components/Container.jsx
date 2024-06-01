@@ -7,9 +7,9 @@ const Container = ({ children, index }) => {
   } = useContext(ThemeContext);
   const getClassName = () => {
     if (darkMode) {
-      return index % 2 === 0 ? "bgdark" : "bggray";
+      return index % 2 === 0 ? "bggray" : "bgdark";
     } else {
-      return index % 2 === 0 ? "bglight" : "bgblue";
+      return index % 2 === 0 ? "bgblue" : "bglight";
     }
   };
 

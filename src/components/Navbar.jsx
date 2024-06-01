@@ -1,31 +1,20 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../img/Ecu.png";
 import { Collapse } from "react-bootstrap";
 import ChangeTheme from "./ChangeTheme";
-import { ThemeContext } from "../context/ThemeContext";
-import { LangContext } from "../context/LangContext";
 import ChangeLanguage from "./ChangeLanguage";
 import translations from "../translations";
 
-const Navbar = () => {
+const Navbar = ({lang, theme}) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
-  const { state } = useContext(LangContext);
-  const navItems = translations[state.lang].nav;
-
-  const {
-    state: { darkMode },
-  } = useContext(ThemeContext);
-
-  const {
-    state: { lang },
-  } = useContext(LangContext);
+  const navItems = translations[lang].nav;
 
   const toggleNavbar = () => {
     setNavbarOpen(!navbarOpen);
   };
 
-  useEffect(() => {}, [darkMode, lang]);
+  useEffect(() => {}, [theme, lang]);
 
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
