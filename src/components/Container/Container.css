@@ -1,0 +1,17 @@
+.bglight {
+  background-color: var(--lightBg);
+}
+
+.bgdark {
+  background-color: var(--darkBg);
+  color: var(--fontDark);
+}
+
+.bgblue {
+  background-color: var(--lightBgb);
+}
+
+.bggray {
+  background-color: var(--bgDark);
+  color: var(--fontDark);
+}

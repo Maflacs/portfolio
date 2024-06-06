@@ -22,7 +22,7 @@ const translations = {
     titles: ["Learned Skills", "Other Competencies", "Courses", "My Works"],
     about: [
       "I am a very enthusiastic beginner developer, primarily interested in frontend development and data analysis.",
-      "I have been involved in these fields for almost 5 years, continuously improving myself, but I do not yet have corporate experience.",
+      "I have been involved in these fields for almost 5 years, continuously improving myself, but I do not have corporate experience yet.",
       "Therefore, I am now looking for a job to learn even more.",
     ],
     skills: [

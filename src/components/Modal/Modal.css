@@ -1,0 +1,39 @@
+.modal {
+    background-color: var(--bgDark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal img {
+    width: 50%;
+    margin: 1rem 0;
+  }
+  
+  .modalNav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .arrow {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .closebtn {
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+
+  @media (max-width: 1400px) {
+    .modal img {
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .modal img {
+      width: 90%;
+    }
+  }
