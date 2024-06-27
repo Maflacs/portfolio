@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.70bc6593.css",
-    "main.js": "/portfolio/static/js/main.25e968ec.js",
+    "main.css": "/portfolio/static/css/main.cfc63c00.css",
+    "main.js": "/portfolio/static/js/main.7997114e.js",
+    "static/media/playful-learn.png": "/portfolio/static/media/playful-learn.30de63b3568c039c457e.png",
+    "static/media/playful-learn-en.png": "/portfolio/static/media/playful-learn-en.6a02778f5794065e89f0.png",
     "static/media/magic-school.png": "/portfolio/static/media/magic-school.dcba7d518ebf0838d77d.png",
     "static/media/magic-school-en.png": "/portfolio/static/media/magic-school-en.00bd87a586b6386793d7.png",
     "static/media/Javascript.png": "/portfolio/static/media/Javascript.de26a14be0c052ba5fb7.png",
@@ -22,11 +24,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/flagen.svg": "/portfolio/static/media/flagen.6cf90268d11449c43485e377d66bc8b0.svg",
     "static/media/flaghu.svg": "/portfolio/static/media/flaghu.cb329e885950a7c054075d78aa6f1364.svg",
-    "main.70bc6593.css.map": "/portfolio/static/css/main.70bc6593.css.map",
-    "main.25e968ec.js.map": "/portfolio/static/js/main.25e968ec.js.map"
+    "main.cfc63c00.css.map": "/portfolio/static/css/main.cfc63c00.css.map",
+    "main.7997114e.js.map": "/portfolio/static/js/main.7997114e.js.map"
   },
   "entrypoints": [
-    "static/css/main.70bc6593.css",
-    "static/js/main.25e968ec.js"
+    "static/css/main.cfc63c00.css",
+    "static/js/main.7997114e.js"
   ]
 }
