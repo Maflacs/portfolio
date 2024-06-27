@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
     width: 80%;
-
+    margin: 1rem;
   }
   
   .projectImg {
@@ -45,3 +45,9 @@
   .link a {
     color: var(--fontDark);
   }
+
+  @media (max-width: 1000px) {
+    .projects-container{
+        flex-direction: column;
+    }
+}
