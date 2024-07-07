@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cfc63c00.css",
-    "main.js": "/portfolio/static/js/main.7997114e.js",
+    "main.js": "/portfolio/static/js/main.3ed6f1d8.js",
     "static/media/playful-learn.png": "/portfolio/static/media/playful-learn.30de63b3568c039c457e.png",
     "static/media/playful-learn-en.png": "/portfolio/static/media/playful-learn-en.6a02778f5794065e89f0.png",
     "static/media/magic-school.png": "/portfolio/static/media/magic-school.dcba7d518ebf0838d77d.png",
     "static/media/magic-school-en.png": "/portfolio/static/media/magic-school-en.00bd87a586b6386793d7.png",
+    "static/media/profilpic2.jpeg": "/portfolio/static/media/profilpic2.16853e9298ffe6a18aac.jpeg",
     "static/media/Javascript.png": "/portfolio/static/media/Javascript.de26a14be0c052ba5fb7.png",
     "static/media/Pythonfree.png": "/portfolio/static/media/Pythonfree.5e23eb0c1a9a4f3be750.png",
-    "static/media/profilpic.jpeg": "/portfolio/static/media/profilpic.6987c0d75405ecbd0be5.jpeg",
     "static/media/DataAnalysis.png": "/portfolio/static/media/DataAnalysis.fbc412a3f9742b875336.png",
     "static/media/MachineLearning.png": "/portfolio/static/media/MachineLearning.60ab6bb8d40601b077f7.png",
     "static/media/React.png": "/portfolio/static/media/React.db8340d7046f2b3839cd.png",
@@ -25,10 +25,10 @@
     "static/media/flagen.svg": "/portfolio/static/media/flagen.6cf90268d11449c43485e377d66bc8b0.svg",
     "static/media/flaghu.svg": "/portfolio/static/media/flaghu.cb329e885950a7c054075d78aa6f1364.svg",
     "main.cfc63c00.css.map": "/portfolio/static/css/main.cfc63c00.css.map",
-    "main.7997114e.js.map": "/portfolio/static/js/main.7997114e.js.map"
+    "main.3ed6f1d8.js.map": "/portfolio/static/js/main.3ed6f1d8.js.map"
   },
   "entrypoints": [
     "static/css/main.cfc63c00.css",
-    "static/js/main.7997114e.js"
+    "static/js/main.3ed6f1d8.js"
   ]
 }
