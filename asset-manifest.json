@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.34433c31.css",
+    "main.css": "/portfolio/static/css/main.1f5a6a31.css",
     "main.js": "/portfolio/static/js/main.3ed6f1d8.js",
     "static/media/playful-learn.png": "/portfolio/static/media/playful-learn.30de63b3568c039c457e.png",
     "static/media/playful-learn-en.png": "/portfolio/static/media/playful-learn-en.6a02778f5794065e89f0.png",
@@ -24,11 +24,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/flagen.svg": "/portfolio/static/media/flagen.6cf90268d11449c43485e377d66bc8b0.svg",
     "static/media/flaghu.svg": "/portfolio/static/media/flaghu.cb329e885950a7c054075d78aa6f1364.svg",
-    "main.34433c31.css.map": "/portfolio/static/css/main.34433c31.css.map",
+    "main.1f5a6a31.css.map": "/portfolio/static/css/main.1f5a6a31.css.map",
     "main.3ed6f1d8.js.map": "/portfolio/static/js/main.3ed6f1d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.34433c31.css",
+    "static/css/main.1f5a6a31.css",
     "static/js/main.3ed6f1d8.js"
   ]
 }
