@@ -1,5 +1,5 @@
 import React from "react";
-import profil from "../../assets/img/profilpic2.jpeg"; // Import the profile picture
+import profil from "../../assets/img/profilpic3.jpg"; // Import the profile picture
 import translations from "../../utils/translations"; // Import translations utility
 import Container from "../Container/Container"; // Import Container component
 import ReactTypingEffect from "react-typing-effect"; // Import typing effect component
