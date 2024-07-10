@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1f5a6a31.css",
-    "main.js": "/portfolio/static/js/main.3ed6f1d8.js",
+    "main.js": "/portfolio/static/js/main.cf1af172.js",
     "static/media/playful-learn.png": "/portfolio/static/media/playful-learn.30de63b3568c039c457e.png",
     "static/media/playful-learn-en.png": "/portfolio/static/media/playful-learn-en.6a02778f5794065e89f0.png",
     "static/media/magic-school.png": "/portfolio/static/media/magic-school.dcba7d518ebf0838d77d.png",
     "static/media/magic-school-en.png": "/portfolio/static/media/magic-school-en.00bd87a586b6386793d7.png",
-    "static/media/profilpic2.jpeg": "/portfolio/static/media/profilpic2.16853e9298ffe6a18aac.jpeg",
     "static/media/Javascript.png": "/portfolio/static/media/Javascript.de26a14be0c052ba5fb7.png",
     "static/media/Pythonfree.png": "/portfolio/static/media/Pythonfree.5e23eb0c1a9a4f3be750.png",
     "static/media/DataAnalysis.png": "/portfolio/static/media/DataAnalysis.fbc412a3f9742b875336.png",
@@ -20,15 +19,16 @@
     "static/media/Intermediate Machine Learning.png": "/portfolio/static/media/Intermediate Machine Learning.910aa05a0efe8b81d448.png",
     "static/media/Intro to Programming.png": "/portfolio/static/media/Intro to Programming.915d9125e7ec75558438.png",
     "static/media/Data Visualization.png": "/portfolio/static/media/Data Visualization.53b40ddadf99ca16baab.png",
+    "static/media/profilpic3.jpg": "/portfolio/static/media/profilpic3.01b4cb47123c9fd0ebbb.jpg",
     "static/media/moon.png": "/portfolio/static/media/moon.58d6ddbff1c2032d0e0e.png",
     "index.html": "/portfolio/index.html",
     "static/media/flagen.svg": "/portfolio/static/media/flagen.6cf90268d11449c43485e377d66bc8b0.svg",
     "static/media/flaghu.svg": "/portfolio/static/media/flaghu.cb329e885950a7c054075d78aa6f1364.svg",
     "main.1f5a6a31.css.map": "/portfolio/static/css/main.1f5a6a31.css.map",
-    "main.3ed6f1d8.js.map": "/portfolio/static/js/main.3ed6f1d8.js.map"
+    "main.cf1af172.js.map": "/portfolio/static/js/main.cf1af172.js.map"
   },
   "entrypoints": [
     "static/css/main.1f5a6a31.css",
-    "static/js/main.3ed6f1d8.js"
+    "static/js/main.cf1af172.js"
   ]
 }
