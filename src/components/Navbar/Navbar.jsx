@@ -32,7 +32,7 @@ const Navbar = ({ lang, theme }) => {
         <ul className="navbar-nav">
           {/* Navbar items */}
           <li className="nav-item">
-            <a href="about" className="nav-link">
+            <a href="#about" className="nav-link">
               {/* Navbar link to home */}
               {navItems[0]} {/* Display home navigation text */}
             </a>
