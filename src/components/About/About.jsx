@@ -10,9 +10,9 @@ const About = ({ lang }) => {
   const greetings = lang === "hu" ? (["<h1>Hello Világ!</h1>", "<h1>Kossa Éva</h1>", "<h1>Front-end fejlesztő</h1>"]) : (["<h1>Hello World!</h1>", "<h1>Eva Kossa</h1>", "<h1>Front-end developer</h1>"]); // Determine greetings based on language
 
   return (
-    <Container index={0}> 
-      <header className="about">
-          <span id="morphBlur"></span> {/* Decorative element for background blur */}
+    <Container index={0}>
+      <header id="about">
+        <span id="morphBlur"></span> {/* Decorative element for background blur */}
         <h1>
           <ReactTypingEffect
             text={greetings}
