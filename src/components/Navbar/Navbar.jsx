@@ -18,11 +18,7 @@ const Navbar = ({ lang, theme }) => {
   };
 
   // Effect to handle changes in theme and language
-<<<<<<< HEAD
-  useEffect(() => {}, [theme, lang]);
-=======
   useEffect(() => { }, [theme, lang]);
->>>>>>> 8fc7270 (fix(navbar): Add missing About section link)
 
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark"> {/* Navbar container */}
