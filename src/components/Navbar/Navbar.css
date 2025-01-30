@@ -1,0 +1,84 @@
+.logo {
+    margin: 0 1rem;
+    width: 2.5em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+  }
+
+  .navbar-toggler-icon {
+    font-size: .8rem;
+  }
+  
+  nav button {
+    margin-right: 2rem;
+    padding: 0
+  }
+  
+  nav a:hover,
+  nav a.active {
+    background: var(--navBg);
+    transition: 0.5s ease-out;
+    border-radius: 10px;
+  }
+  
+  .collapse {
+    margin-right: 3rem;
+  }
+
+  .toggle {
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    background-color: white;
+    position: fixed;
+    right: 5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #999;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .lang {
+    right: 8rem;
+    font-size: 16px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+
+  @media (max-width: 1000px) {
+
+    .toggle {
+      margin-right: 1rem;
+      top: 1rem;
+    }
+
+    nav a {
+        margin: .5rem 0;
+    }
+
+    nav a:hover,
+    nav a.active {
+      padding: .5rem;
+    }
+  }
+  
