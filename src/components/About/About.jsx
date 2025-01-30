@@ -11,7 +11,7 @@ const About = ({ lang }) => {
 
   return (
     <Container index={0}>
-      <header id="about">
+      <header className="about">
         <span id="morphBlur"></span> {/* Decorative element for background blur */}
         <h1>
           <ReactTypingEffect
